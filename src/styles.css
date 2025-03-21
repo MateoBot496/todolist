@@ -1,3 +1,58 @@
+:root{
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 60%;
+    height: 50%;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    border-radius: 20px;
+    display: flex;
+}
+
+.botones{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.botones div{
+    border: 1px solid rgb(0, 0, 0);
+    flex-grow: 1;
+}
+
+.content{
+    border: 2px solid black;
+    flex: 1;
+}
+
+
+
+/* FORMULARIO AÑADIR */
+.bgblur {
+    filter: blur(4px);
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
 }
